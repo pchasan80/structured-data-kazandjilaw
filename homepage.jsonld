@@ -113,12 +113,12 @@
       "@id": "https://www.kazandjilaw.com/#faq",
       "isPartOf": {"@id": "https://www.kazandjilaw.com/#webpage"},
       "mainEntity": [
-        {"@type": "Question", "name": "What should I do immediately after being charged with a criminal offence in Ontario?", "acceptedAnswer": {"@type": "Answer", "text": "Seek legal counsel before speaking to police further. Contact a criminal defence lawyer promptly to protect your rights."}},
-        {"@type": "Question", "name": "Do I have to talk to the police after arrest?", "acceptedAnswer": {"@type": "Answer", "text": "You must provide basic identification but you are not required to answer investigative questions. Politely request legal representation."}},
-        {"@type": "Question", "name": "Can charges be withdrawn before trial?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Charges may be withdrawn if evidence is insufficient, weaknesses are exposed, diversion is granted, or a negotiated resolution occurs."}},
-        {"@type": "Question", "name": "Will a first offence lead to jail time?", "acceptedAnswer": {"@type": "Answer", "text": "Outcomes depend on charge severity, circumstances, and mitigation factors. Many first-time offenders receive alternatives to incarceration for less serious offences."}},
-        {"@type": "Question", "name": "How long does a criminal case typically take in Ontario?", "acceptedAnswer": {"@type": "Answer", "text": "Timelines vary; disclosure, negotiations, and court scheduling often mean several months. Complex matters may take a year or more."}},
-        {"@type": "Question", "name": "What is the difference between summary and indictable offences?", "acceptedAnswer": {"@type": "Answer", "text": "Summary offences are generally less serious with lower maximum penalties; indictable offences carry higher penalties and procedural complexity. Some offences are hybrid."}}
+        {"@type": "Question", "name": "What should I do if I am arrested?", "acceptedAnswer": {"@type": "Answer", "text": "Exercise your right to remain silent and request a lawyer immediately. Do not provide statements to police until you have received legal advice."}},
+        {"@type": "Question", "name": "Can criminal charges be dropped or reduced?", "acceptedAnswer": {"@type": "Answer", "text": "Possibly. Charges may be withdrawn or reduced based on the strength of the evidence, Charter issues, diversion eligibility, and negotiations with the Crown."}},
+        {"@type": "Question", "name": "What are the consequences of a criminal conviction?", "acceptedAnswer": {"@type": "Answer", "text": "Consequences can include a criminal record, fines, probation, travel restrictions, and even jail, depending on the offence and personal circumstances."}},
+        {"@type": "Question", "name": "How does the divorce process work in Toronto?", "acceptedAnswer": {"@type": "Answer", "text": "Most divorces are resolved through negotiation or mediation. You must meet residency requirements and address property, support, and parenting issues; court is used if settlement is not reached."}},
+        {"@type": "Question", "name": "How is child custody determined?", "acceptedAnswer": {"@type": "Answer", "text": "Parenting arrangements are decided based on the child’s best interests, considering factors like stability, safety, parental capacity, and the existing status quo."}},
+        {"@type": "Question", "name": "Am I entitled to spousal support?", "acceptedAnswer": {"@type": "Answer", "text": "Entitlement depends on need and means, as well as compensatory and non‑compensatory factors. Amount and duration are often guided by the Spousal Support Advisory Guidelines (SSAG)."}}
       ]
     }
   ]
