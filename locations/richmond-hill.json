@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.kazandjilaw.com/criminal-defence/richmond-hill/#webpage",
+      "url": "https://www.kazandjilaw.com/criminal-defence/richmond-hill/",
+      "isPartOf": { "@id": "https://www.kazandjilaw.com/#website" },
+      "breadcrumb": { "@id": "https://www.kazandjilaw.com/criminal-defence/richmond-hill/#breadcrumb" },
+      "inLanguage": "en-CA"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kazandjilaw.com/criminal-defence/richmond-hill/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.kazandjilaw.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Criminal Defence", "item": "https://www.kazandjilaw.com/criminal-defence/" },
+        { "@type": "ListItem", "position": 3, "name": "Richmond Hill", "item": "https://www.kazandjilaw.com/criminal-defence/richmond-hill/" }
+      ]
+    },
+    {
+      "@type": "LegalService",
+      "@id": "https://www.kazandjilaw.com/criminal-defence/richmond-hill/#legalservice",
+      "name": "Criminal Defence Lawyer in Richmond Hill",
+      "url": "https://www.kazandjilaw.com/criminal-defence/richmond-hill/",
+      "provider": { "@id": "https://www.kazandjilaw.com/#organization" },
+      "telephone": "+1 647-945-6490",
+      "email": "fadi@kazandjilaw.com",
+      "image": "https://www.kazandjilaw.com/wp-content/uploads/2025/01/Logo-Designs-2025-02-28T154832.373.png",
+      "areaServed": { "@type": "City", "name": "Richmond Hill" },
+      "serviceType": "Criminal Defence",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "ON",
+        "addressCountry": "CA"
+      }
+    }
+  ]
+}

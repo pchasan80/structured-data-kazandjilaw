@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.kazandjilaw.com/criminal-defence/north-york/#webpage",
+      "url": "https://www.kazandjilaw.com/criminal-defence/north-york/",
+      "isPartOf": { "@id": "https://www.kazandjilaw.com/#website" },
+      "breadcrumb": { "@id": "https://www.kazandjilaw.com/criminal-defence/north-york/#breadcrumb" },
+      "inLanguage": "en-CA"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kazandjilaw.com/criminal-defence/north-york/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.kazandjilaw.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Criminal Defence", "item": "https://www.kazandjilaw.com/criminal-defence/" },
+        { "@type": "ListItem", "position": 3, "name": "North York", "item": "https://www.kazandjilaw.com/criminal-defence/north-york/" }
+      ]
+    },
+    {
+      "@type": "LegalService",
+      "@id": "https://www.kazandjilaw.com/criminal-defence/north-york/#legalservice",
+      "name": "Criminal Defence Lawyer in North York",
+      "url": "https://www.kazandjilaw.com/criminal-defence/north-york/",
+      "provider": { "@id": "https://www.kazandjilaw.com/#organization" },
+      "telephone": "+1 647-945-6490",
+      "email": "fadi@kazandjilaw.com",
+      "image": "https://www.kazandjilaw.com/wp-content/uploads/2025/01/Logo-Designs-2025-02-28T154832.373.png",
+      "areaServed": { "@type": "City", "name": "North York" },
+      "serviceType": "Criminal Defence",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "ON",
+        "addressCountry": "CA"
+      }
+    }
+  ]
+}

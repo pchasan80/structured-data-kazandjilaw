@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.kazandjilaw.com/aggravated-assault-lawyer/#webpage",
+      "url": "https://www.kazandjilaw.com/aggravated-assault-lawyer/",
+      "isPartOf": { "@id": "https://www.kazandjilaw.com/#website" },
+      "breadcrumb": { "@id": "https://www.kazandjilaw.com/aggravated-assault-lawyer/#breadcrumb" },
+      "inLanguage": "en-CA"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kazandjilaw.com/aggravated-assault-lawyer/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.kazandjilaw.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Aggravated Assault Lawyer", "item": "https://www.kazandjilaw.com/aggravated-assault-lawyer/" }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.kazandjilaw.com/aggravated-assault-lawyer/#service",
+      "name": "Aggravated Assault Defence",
+      "serviceType": "Aggravated Assault Defence",
+      "url": "https://www.kazandjilaw.com/aggravated-assault-lawyer/",
+      "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
+      "image": "https://www.kazandjilaw.com/wp-content/uploads/2025/01/Logo-Designs-2025-02-28T154832.373.png",
+      "areaServed": [
+        { "@type": "City", "name": "Markham" },
+        { "@type": "City", "name": "Hamilton" },
+        { "@type": "City", "name": "North York" },
+        { "@type": "City", "name": "Brampton" },
+        { "@type": "City", "name": "Richmond Hill" },
+        { "@type": "City", "name": "Newmarket" },
+        { "@type": "City", "name": "Vaughan" },
+        { "@type": "City", "name": "Oakville" },
+        { "@type": "AdministrativeArea", "name": "Ontario" }
+      ],
+      "audience": { "@type": "Audience", "audienceType": "Individuals charged with criminal offences in Ontario" }
+    }
+  ]
+}

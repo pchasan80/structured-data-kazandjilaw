@@ -1,0 +1,40 @@
+I would like to generate high-level structured data (JSON-LD) for our law firm to improve SEO, local rankings, rich results, and client trust.
+
+Let’s start by creating structured data for our homepage, location pages, and practice area pages.
+
+Founder Name: Fadi Matthew Kazandji
+Founding Year: 2012
+Email: fadi@kazandjilaw.com
+Main Phone Number: +1 647-945-6490
+
+Homepage:
+https://www.kazandjilaw.com/
+
+Location Pages
+https://www.kazandjilaw.com/criminal-defence/markham/
+https://www.kazandjilaw.com/criminal-defence/hamilton/
+https://www.kazandjilaw.com/criminal-defence/north-york/
+https://www.kazandjilaw.com/criminal-defence/brampton/
+https://www.kazandjilaw.com/criminal-defence/richmond-hill/
+https://www.kazandjilaw.com/criminal-defence/newmarket/
+https://www.kazandjilaw.com/criminal-defence/vaughan/
+https://www.kazandjilaw.com/criminal-defence/oakville/
+
+Practice Area Pages:
+https://www.kazandjilaw.com/aggravated-assault-lawyer/
+https://www.kazandjilaw.com/armed-robbery-lawyers-in-toronto/
+https://www.kazandjilaw.com/assault-offences-lawyers/
+https://www.kazandjilaw.com/assault-with-a-weapon-lawyer/
+https://www.kazandjilaw.com/break-and-enter-lawyer-in-toronto/
+https://www.kazandjilaw.com/criminal-harassment-defence/
+https://www.kazandjilaw.com/dangerous-driving-offences/
+https://www.kazandjilaw.com/domestic-assault-lawyer/
+https://www.kazandjilaw.com/driving-over-80-defence-lawyer-in-toronto/
+https://www.kazandjilaw.com/drug-related-dui/
+https://www.kazandjilaw.com/impaired-driving-lawyers-in-toronto/
+https://www.kazandjilaw.com/fraud-defence-lawyer-toronto/
+https://www.kazandjilaw.com/possession-of-stolen-property-lawyer-in-toronto/
+https://www.kazandjilaw.com/refusing-a-breath-sample/
+https://www.kazandjilaw.com/sexual-assault-defence-lawyer/
+https://www.kazandjilaw.com/sexual-interference-lawyer/
+https://www.kazandjilaw.com/voyeurism-defence-lawyer/

@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.kazandjilaw.com/criminal-harassment-defence/#webpage",
+      "url": "https://www.kazandjilaw.com/criminal-harassment-defence/",
+      "isPartOf": { "@id": "https://www.kazandjilaw.com/#website" },
+      "breadcrumb": { "@id": "https://www.kazandjilaw.com/criminal-harassment-defence/#breadcrumb" },
+      "inLanguage": "en-CA"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.kazandjilaw.com/criminal-harassment-defence/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.kazandjilaw.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Criminal Harassment Defence", "item": "https://www.kazandjilaw.com/criminal-harassment-defence/" }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.kazandjilaw.com/criminal-harassment-defence/#service",
+      "name": "Criminal Harassment Defence",
+      "serviceType": "Criminal Harassment Defence",
+      "url": "https://www.kazandjilaw.com/criminal-harassment-defence/",
+      "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
+      "image": "https://www.kazandjilaw.com/wp-content/uploads/2025/01/Logo-Designs-2025-02-28T154832.373.png",
+      "areaServed": [
+        { "@type": "City", "name": "Markham" },
+        { "@type": "City", "name": "Hamilton" },
+        { "@type": "City", "name": "North York" },
+        { "@type": "City", "name": "Brampton" },
+        { "@type": "City", "name": "Richmond Hill" },
+        { "@type": "City", "name": "Newmarket" },
+        { "@type": "City", "name": "Vaughan" },
+        { "@type": "City", "name": "Oakville" },
+        { "@type": "AdministrativeArea", "name": "Ontario" }
+      ],
+      "audience": { "@type": "Audience", "audienceType": "Individuals charged with criminal offences in Ontario" }
+    }
+  ]
+}
