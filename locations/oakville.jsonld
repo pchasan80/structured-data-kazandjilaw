@@ -2,38 +2,117 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": ["LegalService", "ProfessionalService"],
+      "@id": "https://www.kazandjilaw.com/criminal-defence/oakville/#service",
+      "name": "Criminal Defence Lawyer Oakville",
+      "url": "https://www.kazandjilaw.com/criminal-defence/oakville/",
+      "serviceType": "Criminal Defence Legal Representation",
+      "provider": {
+        "@id": "https://www.kazandjilaw.com/#org"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Oakville"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "ON",
+        "addressCountry": "CA"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Individuals facing criminal charges"
+      },
+      "description": "Oakville criminal defence lawyers providing legal representation for a wide range of criminal charges.",
+      "knowsAbout": [
+        "Bail Hearings",
+        "Plea Bargains",
+        "Trial Defence",
+        "Appeals"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Criminal Defence Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Legal Consultation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Case Evaluation"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Court Representation"
+            }
+          }
+        ]
+      }
+    },
+    {
       "@type": "WebPage",
       "@id": "https://www.kazandjilaw.com/criminal-defence/oakville/#webpage",
       "url": "https://www.kazandjilaw.com/criminal-defence/oakville/",
-      "isPartOf": { "@id": "https://www.kazandjilaw.com/#website" },
-      "breadcrumb": { "@id": "https://www.kazandjilaw.com/criminal-defence/oakville/#breadcrumb" },
+      "name": "Criminal Defence Lawyer Oakville | Kazandji Law",
+      "isPartOf": {
+        "@id": "https://www.kazandjilaw.com/#website"
+      },
+      "about": {
+        "@id": "https://www.kazandjilaw.com/criminal-defence/oakville/#service"
+      },
+      "description": "Expert legal representation for criminal charges in Oakville. Contact Kazandji Law for a consultation.",
+      "breadcrumb": {
+        "@id": "https://www.kazandjilaw.com/criminal-defence/oakville/#breadcrumb"
+      },
       "inLanguage": "en-CA"
     },
     {
       "@type": "BreadcrumbList",
       "@id": "https://www.kazandjilaw.com/criminal-defence/oakville/#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.kazandjilaw.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Criminal Defence", "item": "https://www.kazandjilaw.com/criminal-defence/" },
-        { "@type": "ListItem", "position": 3, "name": "Oakville", "item": "https://www.kazandjilaw.com/criminal-defence/oakville/" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.kazandjilaw.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Criminal Defence",
+          "item": "https://www.kazandjilaw.com/criminal-defence/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Oakville",
+          "item": "https://www.kazandjilaw.com/criminal-defence/oakville/"
+        }
       ]
     },
     {
-      "@type": "LegalService",
-      "@id": "https://www.kazandjilaw.com/criminal-defence/oakville/#legalservice",
-      "name": "Criminal Defence Lawyer in Oakville",
-      "url": "https://www.kazandjilaw.com/criminal-defence/oakville/",
-      "provider": { "@id": "https://www.kazandjilaw.com/#organization" },
-      "telephone": "+1 647-945-6490",
-      "email": "fadi@kazandjilaw.com",
-      "image": "https://www.kazandjilaw.com/wp-content/uploads/2025/01/Logo-Designs-2025-02-28T154832.373.png",
-      "areaServed": { "@type": "City", "name": "Oakville" },
-      "serviceType": "Criminal Defence",
-      "address": {
-        "@type": "PostalAddress",
-        "addressRegion": "ON",
-        "addressCountry": "CA"
-      }
+      "@type": "FAQPage",
+      "@id": "https://www.kazandjilaw.com/criminal-defence/oakville/#faq",
+      "isPartOf": {
+        "@id": "https://www.kazandjilaw.com/criminal-defence/oakville/#webpage"
+      },
+      "mainEntity": [
+        {"@type": "Question", "name": "What should I do if I am arrested?", "acceptedAnswer": {"@type": "Answer", "text": "If you are arrested, remain calm and exercise your right to remain silent. Do not answer questions without a lawyer present. Call Kazandji Law as soon as possible for immediate legal assistance."}},
+        {"@type": "Question", "name": "Can criminal charges be dropped or reduced?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, depending on the circumstances, charges may be dismissed, reduced, or negotiated for a lighter sentence. Our legal team examines the details of your case to build a strong defence strategy."}},
+        {"@type": "Question", "name": "What are the consequences of a criminal conviction?", "acceptedAnswer": {"@type": "Answer", "text": "A conviction can result in fines, jail time, a criminal record, and difficulty finding employment. Our goal is to fight for the best possible resolution to protect your future."}},
+        {"@type": "Question", "name": "How does the divorce process work in Toronto?", "acceptedAnswer": {"@type": "Answer", "text": "In Ontario, divorce can be contested or uncontested. You must prove the breakdown of the marriage due to separation, adultery, or cruelty. Our firm helps clients navigate property division, child custody, and support agreements."}},
+        {"@type": "Question", "name": "How is child custody determined?", "acceptedAnswer": {"@type": "Answer", "text": "Courts prioritize the best interests of the child, considering factors like the child's well-being, stability, and relationship with both parents. We advocate for fair custody and access arrangements."}},
+        {"@type": "Question", "name": "Am I entitled to spousal support?", "acceptedAnswer": {"@type": "Answer", "text": "Spousal support is based on factors like the length of the marriage, financial dependence, and each spouse’s ability to support themselves. We can help you determine your eligibility and fight for a fair agreement."}}
+      ]
     }
   ]
 }
