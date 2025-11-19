@@ -10,9 +10,11 @@ How to use:
 
 1) Place each JSON-LD snippet into a script tag in the matching page template:
 
+   ```html
    <script type="application/ld+json">
    { ... JSON from the corresponding file ... }
    </script>
+   ```
 
 2) Replace placeholder values where noted (logo URL, images). If you have a physical office address for a city, use the LocalBusiness-style PostalAddress fields in that page instead of just areaServed.
 
