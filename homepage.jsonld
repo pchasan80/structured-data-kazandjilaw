@@ -21,8 +21,10 @@
       "sameAs": [],
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Markham",
+        "streetAddress": "7191 Yonge St Suite 310",
+        "addressLocality": "Thornhill",
         "addressRegion": "ON",
+        "postalCode": "L3T 0C4",
         "addressCountry": "CA"
       },
       "areaServed": [
