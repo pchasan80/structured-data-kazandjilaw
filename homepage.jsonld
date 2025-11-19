@@ -17,7 +17,7 @@
       "foundingDate": "2012",
       "description": "Ontario criminal defence law firm representing clients in assault, DUI, fraud, sexual offences, and related criminal matters.",
       "email": "mailto:fadi@kazandjilaw.com",
-      "telephone": "+1-647-945-6490",
+      "telephone": "+1-647-588-3234",
       "sameAs": [],
       "address": {
         "@type": "PostalAddress",
@@ -99,7 +99,7 @@
       "about": {"@id": "https://www.kazandjilaw.com/#org"},
       "primaryImageOfPage": {"@id": "https://www.kazandjilaw.com/#logo"},
       "description": "Experienced Ontario criminal defence firm handling assault, DUI, fraud, sexual offences and related criminal matters.",
-      "datePublished": "2025-04-07",
+      "datePublished": "2024-02-01",
       "dateModified": "2025-04-07",
       "breadcrumb": {"@id": "https://www.kazandjilaw.com/#breadcrumb"}
     },
