@@ -24,7 +24,15 @@
       "description": "Expert legal defence for dangerous driving charges in Ontario. We analyze every detail of your case to fight for reduced penalties or a complete dismissal.",
       "serviceType": "Dangerous Driving Defence",
       "url": "https://www.kazandjilaw.com/dangerous-driving-offences/",
-      "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
+      "provider": { "@id": "https://www.kazandjilaw.com/#org" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "7191 Yonge St Suite 310",
+        "addressLocality": "Thornhill",
+        "addressRegion": "ON",
+        "postalCode": "L3T 0C4",
+        "addressCountry": "CA"
+      },
       "image": "https://www.kazandjilaw.com/wp-content/uploads/2025/01/Logo-Designs-2025-02-28T154832.373.png",
       "areaServed": [
         { "@type": "City", "name": "Markham" },

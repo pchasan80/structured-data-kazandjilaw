@@ -24,7 +24,15 @@
       "description": "Discreet and powerful legal defence for sexual assault allegations. We are committed to a fair process and the presumption of innocence for our clients.",
       "serviceType": "Sexual Assault Defence",
       "url": "https://www.kazandjilaw.com/sexual-assault-defence-lawyer/",
-      "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
+      "provider": { "@id": "https://www.kazandjilaw.com/#org" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "7191 Yonge St Suite 310",
+        "addressLocality": "Thornhill",
+        "addressRegion": "ON",
+        "postalCode": "L3T 0C4",
+        "addressCountry": "CA"
+      },
       "image": "https://www.kazandjilaw.com/wp-content/uploads/2025/01/Logo-Designs-2025-02-28T154832.373.png",
       "areaServed": [
         { "@type": "City", "name": "Markham" },

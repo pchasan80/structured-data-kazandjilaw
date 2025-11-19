@@ -24,7 +24,15 @@
       "description": "Specialized legal representation for armed robbery charges in Toronto. Kazandji Law offers a robust defence to protect your freedom and future.",
       "serviceType": "Armed Robbery Defence",
       "url": "https://www.kazandjilaw.com/armed-robbery-lawyers-in-toronto/",
-      "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
+      "provider": { "@id": "https://www.kazandjilaw.com/#org" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "7191 Yonge St Suite 310",
+        "addressLocality": "Thornhill",
+        "addressRegion": "ON",
+        "postalCode": "L3T 0C4",
+        "addressCountry": "CA"
+      },
       "image": "https://www.kazandjilaw.com/wp-content/uploads/2025/01/Logo-Designs-2025-02-28T154832.373.png",
       "areaServed": [
         { "@type": "City", "name": "Markham" },
