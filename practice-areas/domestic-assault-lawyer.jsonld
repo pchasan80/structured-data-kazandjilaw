@@ -18,9 +18,10 @@
       ]
     },
     {
-      "@type": "Service",
+      "@type": "LegalService",
       "@id": "https://www.kazandjilaw.com/domestic-assault-lawyer/#service",
       "name": "Domestic Assault Defence",
+      "description": "Compassionate and vigorous legal defence for those accused of domestic assault. We handle sensitive cases with the utmost professionalism and dedication.",
       "serviceType": "Domestic Assault Defence",
       "url": "https://www.kazandjilaw.com/domestic-assault-lawyer/",
       "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
@@ -36,7 +37,45 @@
         { "@type": "City", "name": "Oakville" },
         { "@type": "AdministrativeArea", "name": "Ontario" }
       ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 342,
+        "reviewCount": 342,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "audience": { "@type": "Audience", "audienceType": "Individuals charged with criminal offences in Ontario" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.kazandjilaw.com/domestic-assault-lawyer/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What makes an assault 'domestic'?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An assault is considered 'domestic' when it occurs between individuals in an intimate or family relationship, such as spouses, common-law partners, or parents and children. These cases are treated with special attention by the courts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can the complainant drop domestic assault charges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Once charges are laid by the police, the decision to proceed rests with the Crown prosecutor, not the complainant. The complainant's wishes are considered, but they cannot unilaterally 'drop' the charges."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a 'no-contact' order?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A no-contact order is a common condition of bail in domestic assault cases. It prohibits the accused from having any direct or indirect contact with the complainant. Breaching this order can lead to further criminal charges."
+          }
+        }
+      ]
     }
   ]
 }

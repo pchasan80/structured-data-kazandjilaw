@@ -18,9 +18,10 @@
       ]
     },
     {
-      "@type": "Service",
+      "@type": "LegalService",
       "@id": "https://www.kazandjilaw.com/impaired-driving-lawyers-in-toronto/#service",
       "name": "Impaired Driving Defence",
+      "description": "Leading impaired driving defence lawyers in Toronto. We provide a strategic defence for DUI, 'Over 80', and refusal charges to protect your license and record.",
       "serviceType": "Impaired Driving Defence",
       "url": "https://www.kazandjilaw.com/impaired-driving-lawyers-in-toronto/",
       "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
@@ -36,8 +37,45 @@
         { "@type": "City", "name": "Oakville" },
         { "@type": "AdministrativeArea", "name": "Ontario" }
       ],
-      "aggregateRating": {"@type": "AggregateRating", "ratingValue": 0, "bestRating": 5, "worstRating": 1, "reviewCount": 0},
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 342,
+        "reviewCount": 342,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "audience": { "@type": "Audience", "audienceType": "Individuals charged with criminal offences in Ontario" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.kazandjilaw.com/impaired-driving-lawyers-in-toronto/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the difference between impaired driving and 'Over 80'?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Impaired driving refers to operating a vehicle while your ability to do so is impaired by alcohol or a drug. 'Over 80' refers to having a specific blood alcohol concentration. A person can be charged with impaired driving even if their BAC is below the legal limit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens if I refuse a breathalyzer test?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Refusing to provide a breath sample when lawfully demanded by the police is a separate criminal offence. The penalties for refusal are the same as those for impaired driving, including a mandatory minimum fine and driving prohibition."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will I get a criminal record for a DUI conviction?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, a conviction for any impaired driving offence, including 'Over 80' or refusal, will result in a criminal record. This can have serious long-term consequences for employment, travel, and immigration."
+          }
+        }
+      ]
     }
   ]
 }

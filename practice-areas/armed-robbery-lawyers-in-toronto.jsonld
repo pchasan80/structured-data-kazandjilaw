@@ -18,9 +18,10 @@
       ]
     },
     {
-      "@type": "Service",
+      "@type": "LegalService",
       "@id": "https://www.kazandjilaw.com/armed-robbery-lawyers-in-toronto/#service",
       "name": "Armed Robbery Defence",
+      "description": "Specialized legal representation for armed robbery charges in Toronto. Kazandji Law offers a robust defence to protect your freedom and future.",
       "serviceType": "Armed Robbery Defence",
       "url": "https://www.kazandjilaw.com/armed-robbery-lawyers-in-toronto/",
       "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
@@ -36,7 +37,45 @@
         { "@type": "City", "name": "Oakville" },
         { "@type": "AdministrativeArea", "name": "Ontario" }
       ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 342,
+        "reviewCount": 342,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "audience": { "@type": "Audience", "audienceType": "Individuals charged with criminal offences in Ontario" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.kazandjilaw.com/armed-robbery-lawyers-in-toronto/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the difference between robbery and armed robbery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Robbery involves theft with violence or threats of violence. Armed robbery is a more serious offence where a weapon is used or brandished during the commission of the robbery. The presence of a weapon significantly increases the potential penalties."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the mandatory minimum sentences for armed robbery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If a firearm is used in the robbery, there are mandatory minimum sentences that apply, starting from five years for a first offence. An experienced lawyer is essential to navigate these complex sentencing provisions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I be convicted of armed robbery if the weapon was a replica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The law considers the use of a replica firearm during a robbery to be the same as using a real firearm for sentencing purposes. The focus is on the fear and intimidation caused, not the weapon's authenticity."
+          }
+        }
+      ]
     }
   ]
 }

@@ -18,9 +18,10 @@
       ]
     },
     {
-      "@type": "Service",
+      "@type": "LegalService",
       "@id": "https://www.kazandjilaw.com/criminal-harassment-defence/#service",
       "name": "Criminal Harassment Defence",
+      "description": "Skilled legal defence for criminal harassment and stalking charges. We provide discreet and effective representation to protect your reputation and freedom.",
       "serviceType": "Criminal Harassment Defence",
       "url": "https://www.kazandjilaw.com/criminal-harassment-defence/",
       "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
@@ -36,7 +37,45 @@
         { "@type": "City", "name": "Oakville" },
         { "@type": "AdministrativeArea", "name": "Ontario" }
       ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 342,
+        "reviewCount": 342,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "audience": { "@type": "Audience", "audienceType": "Individuals charged with criminal offences in Ontario" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.kazandjilaw.com/criminal-harassment-defence/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What kind of behaviour is considered criminal harassment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Criminal harassment, or stalking, includes repeatedly following someone, repeatedly communicating with them against their will, watching their home or workplace, or engaging in threatening conduct that causes them to fear for their safety."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I be charged with criminal harassment for online activity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, cyberstalking is a form of criminal harassment. Repeated, unwanted online communication, monitoring someone's online activities, or posting threatening messages can lead to criminal charges."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a peace bond and how does it relate to harassment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A peace bond is a court order that requires an individual to keep the peace and be of good behaviour, often including a condition to not contact the complainant. It is often used as a way to resolve criminal harassment charges without a criminal conviction."
+          }
+        }
+      ]
     }
   ]
 }

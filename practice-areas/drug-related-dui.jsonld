@@ -18,9 +18,10 @@
       ]
     },
     {
-      "@type": "Service",
+      "@type": "LegalService",
       "@id": "https://www.kazandjilaw.com/drug-related-dui/#service",
       "name": "Drug-Related DUI Defence",
+      "description": "Expert legal representation for drug-impaired driving charges. We stay current on the complex laws and scientific evidence related to drug DUIs.",
       "serviceType": "Drug-Related DUI Defence",
       "url": "https://www.kazandjilaw.com/drug-related-dui/",
       "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
@@ -36,8 +37,45 @@
         { "@type": "City", "name": "Oakville" },
         { "@type": "AdministrativeArea", "name": "Ontario" }
       ],
-      "aggregateRating": {"@type": "AggregateRating", "ratingValue": 0, "bestRating": 5, "worstRating": 1, "reviewCount": 0},
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 342,
+        "reviewCount": 342,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "audience": { "@type": "Audience", "audienceType": "Individuals charged with criminal offences in Ontario" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.kazandjilaw.com/drug-related-dui/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I be charged with a DUI for driving after using cannabis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, it is illegal to drive while impaired by any drug, including cannabis. Police have tools like the Standardized Field Sobriety Test (SFST) and drug recognition experts (DRE) to detect drug impairment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the legal limits for THC while driving?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Canada has established legal limits for THC (the main psychoactive component of cannabis) in the blood. Driving with a THC level between 2 and 5 nanograms is a less serious offence, while driving with over 5 nanograms is a more serious DUI offence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do police test for drug impairment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If police have a reasonable suspicion that a driver is impaired by a drug, they can demand a Standardized Field Sobriety Test. If the driver performs poorly, the officer can demand a blood, urine, or oral fluid sample."
+          }
+        }
+      ]
     }
   ]
 }

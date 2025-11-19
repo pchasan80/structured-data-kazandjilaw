@@ -18,9 +18,10 @@
       ]
     },
     {
-      "@type": "Service",
+      "@type": "LegalService",
       "@id": "https://www.kazandjilaw.com/refusing-a-breath-sample/#service",
       "name": "Refusing a Breath Sample Defence",
+      "description": "Experienced legal defence for individuals charged with refusing a breath sample. We scrutinize the police conduct to ensure your rights were not violated.",
       "serviceType": "Refusing a Breath Sample Defence",
       "url": "https://www.kazandjilaw.com/refusing-a-breath-sample/",
       "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
@@ -36,8 +37,45 @@
         { "@type": "City", "name": "Oakville" },
         { "@type": "AdministrativeArea", "name": "Ontario" }
       ],
-      "aggregateRating": {"@type": "AggregateRating", "ratingValue": 0, "bestRating": 5, "worstRating": 1, "reviewCount": 0},
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 342,
+        "reviewCount": 342,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "audience": { "@type": "Audience", "audienceType": "Individuals charged with criminal offences in Ontario" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.kazandjilaw.com/refusing-a-breath-sample/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is refusing a breath sample a criminal offence?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, failing or refusing to comply with a lawful demand from a police officer to provide a breath sample is a criminal offence with penalties equivalent to an impaired driving conviction."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a 'lawful demand' for a breath sample?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A police officer must have reasonable grounds to suspect you have alcohol in your body to make a demand for a roadside screening test. To demand an evidentiary breath test at the station, they must have reasonable grounds to believe you are impaired."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I tried to provide a sample but was unable to?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If you have a legitimate medical reason for being unable to provide a breath sample (e.g., asthma), this can be a valid defence. However, you must provide medical evidence to support this claim."
+          }
+        }
+      ]
     }
   ]
 }

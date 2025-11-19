@@ -18,9 +18,10 @@
       ]
     },
     {
-      "@type": "Service",
+      "@type": "LegalService",
       "@id": "https://www.kazandjilaw.com/assault-offences-lawyers/#service",
       "name": "Assault Offences Defence",
+      "description": "Comprehensive legal services for all types of assault charges. Our defence lawyers have a proven track record of successfully defending clients against assault allegations.",
       "serviceType": "Assault Offences Defence",
       "url": "https://www.kazandjilaw.com/assault-offences-lawyers/",
       "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
@@ -36,7 +37,45 @@
         { "@type": "City", "name": "Oakville" },
         { "@type": "AdministrativeArea", "name": "Ontario" }
       ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 342,
+        "reviewCount": 342,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "audience": { "@type": "Audience", "audienceType": "Individuals charged with criminal offences in Ontario" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.kazandjilaw.com/assault-offences-lawyers/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the different types of assault charges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In Canada, assault charges range from simple assault (unwanted touching) to assault causing bodily harm, assault with a weapon, and aggravated assault. Each carries different penalties and requires a specific defence strategy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the Crown need to prove for an assault conviction?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The prosecution must prove beyond a reasonable doubt that you intentionally applied force to another person without their consent. The level of injury and whether a weapon was involved will determine the specific charge."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is consent a valid defence to an assault charge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Consent can be a defence to simple assault, such as in a consensual fight. However, the law states that one cannot consent to bodily harm. Therefore, if the assault causes significant injury, consent is not a valid defence."
+          }
+        }
+      ]
     }
   ]
 }

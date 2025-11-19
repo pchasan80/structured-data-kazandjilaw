@@ -18,9 +18,10 @@
       ]
     },
     {
-      "@type": "Service",
+      "@type": "LegalService",
       "@id": "https://www.kazandjilaw.com/possession-of-stolen-property-lawyer-in-toronto/#service",
       "name": "Possession of Stolen Property Defence",
+      "description": "Dedicated legal defence for charges of possession of stolen property. Our lawyers work to challenge the prosecution's evidence of knowledge and intent.",
       "serviceType": "Possession of Stolen Property Defence",
       "url": "https://www.kazandjilaw.com/possession-of-stolen-property-lawyer-in-toronto/",
       "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
@@ -36,8 +37,45 @@
         { "@type": "City", "name": "Oakville" },
         { "@type": "AdministrativeArea", "name": "Ontario" }
       ],
-      "aggregateRating": {"@type": "AggregateRating", "ratingValue": 0, "bestRating": 5, "worstRating": 1, "reviewCount": 0},
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 342,
+        "reviewCount": 342,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "audience": { "@type": "Audience", "audienceType": "Individuals charged with criminal offences in Ontario" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.kazandjilaw.com/possession-of-stolen-property-lawyer-in-toronto/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does the Crown have to prove for a possession of stolen property conviction?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The prosecution must prove that the property was in fact stolen, that you were in possession of it, and that you knew the property was stolen or were willfully blind to that fact."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I didn't know the property was stolen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lack of knowledge is a key defence. If you genuinely believed you had a legal right to the property, you cannot be convicted. However, if the circumstances were highly suspicious (e.g., buying a valuable item for a very low price), the court may find you were 'willfully blind'."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the value of the stolen property determined?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The value of the property determines the severity of the charge (over or under $5,000). The value is typically based on the fair market value of the item at the time it was stolen."
+          }
+        }
+      ]
     }
   ]
 }

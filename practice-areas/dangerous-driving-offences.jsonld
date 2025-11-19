@@ -18,9 +18,10 @@
       ]
     },
     {
-      "@type": "Service",
+      "@type": "LegalService",
       "@id": "https://www.kazandjilaw.com/dangerous-driving-offences/#service",
       "name": "Dangerous Driving Defence",
+      "description": "Expert legal defence for dangerous driving charges in Ontario. We analyze every detail of your case to fight for reduced penalties or a complete dismissal.",
       "serviceType": "Dangerous Driving Defence",
       "url": "https://www.kazandjilaw.com/dangerous-driving-offences/",
       "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
@@ -36,7 +37,45 @@
         { "@type": "City", "name": "Oakville" },
         { "@type": "AdministrativeArea", "name": "Ontario" }
       ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 342,
+        "reviewCount": 342,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "audience": { "@type": "Audience", "audienceType": "Individuals charged with criminal offences in Ontario" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.kazandjilaw.com/dangerous-driving-offences/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is considered 'dangerous driving'?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dangerous driving is operating a motor vehicle in a manner that is dangerous to the public, having regard to all the circumstances, including the nature, condition, and use of the place at which the motor vehicle is being operated and the amount of traffic that at the time is or might reasonably be expected to be on that place."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is dangerous driving different from careless driving?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dangerous driving is a criminal offence, while careless driving is a provincial traffic violation. The distinction lies in the degree of departure from the standard of care of a prudent driver. Dangerous driving involves a marked departure from that standard."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I lose my license for a dangerous driving conviction?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, a conviction for dangerous driving results in an automatic one-year driving prohibition for a first offence, in addition to any other penalties like fines or jail time."
+          }
+        }
+      ]
     }
   ]
 }

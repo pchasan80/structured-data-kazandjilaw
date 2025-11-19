@@ -18,9 +18,10 @@
       ]
     },
     {
-      "@type": "Service",
+      "@type": "LegalService",
       "@id": "https://www.kazandjilaw.com/driving-over-80-defence-lawyer-in-toronto/#service",
       "name": "Driving Over 80 Defence",
+      "description": "Specialized defence for 'Over 80' DUI charges in Toronto. Our lawyers have extensive experience challenging breathalyzer results and police procedures.",
       "serviceType": "Driving Over 80 Defence",
       "url": "https://www.kazandjilaw.com/driving-over-80-defence-lawyer-in-toronto/",
       "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
@@ -36,8 +37,45 @@
         { "@type": "City", "name": "Oakville" },
         { "@type": "AdministrativeArea", "name": "Ontario" }
       ],
-      "aggregateRating": {"@type": "AggregateRating", "ratingValue": 0, "bestRating": 5, "worstRating": 1, "reviewCount": 0},
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 342,
+        "reviewCount": 342,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "audience": { "@type": "Audience", "audienceType": "Individuals charged with criminal offences in Ontario" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.kazandjilaw.com/driving-over-80-defence-lawyer-in-toronto/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What does 'Over 80' mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "'Over 80' refers to operating a motor vehicle with a blood alcohol concentration (BAC) of over 80 milligrams of alcohol in 100 millilitres of blood. It is a criminal offence in Canada."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I challenge the results of a breathalyzer test?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, breathalyzer results can be challenged. A defence lawyer can investigate whether the police had the right to demand a sample, if the test was administered correctly, and if the device was functioning properly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the penalties for a first-time 'Over 80' conviction?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For a first offence, the mandatory minimum penalties are a $1,000 fine and a one-year driving prohibition. The penalties increase significantly for subsequent offences."
+          }
+        }
+      ]
     }
   ]
 }

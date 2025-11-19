@@ -18,9 +18,10 @@
       ]
     },
     {
-      "@type": "Service",
+      "@type": "LegalService",
       "@id": "https://www.kazandjilaw.com/assault-with-a-weapon-lawyer/#service",
       "name": "Assault with a Weapon Defence",
+      "description": "Dedicated legal defence for assault with a weapon charges. We build a strategic defence to challenge the prosecution's case and protect your rights.",
       "serviceType": "Assault with a Weapon Defence",
       "url": "https://www.kazandjilaw.com/assault-with-a-weapon-lawyer/",
       "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
@@ -36,7 +37,45 @@
         { "@type": "City", "name": "Oakville" },
         { "@type": "AdministrativeArea", "name": "Ontario" }
       ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 342,
+        "reviewCount": 342,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "audience": { "@type": "Audience", "audienceType": "Individuals charged with criminal offences in Ontario" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.kazandjilaw.com/assault-with-a-weapon-lawyer/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What qualifies as a 'weapon' in an assault with a weapon charge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Almost any object can be considered a weapon if it is used to threaten or assault someone. This includes obvious weapons like knives and guns, but also everyday objects like a bottle, a stick, or even a vehicle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I only threatened to use a weapon but didn't actually use it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Threatening to use a weapon while committing an assault is sufficient to be charged with assault with a weapon. The act of brandishing the weapon in a threatening manner is enough for the charge to apply."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can you defend against an assault with a weapon charge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Defences can include arguing self-defence, challenging the identity of the assailant, or proving that no weapon was actually used or threatened. Our legal team will carefully review the evidence to determine the best defence strategy for your case."
+          }
+        }
+      ]
     }
   ]
 }

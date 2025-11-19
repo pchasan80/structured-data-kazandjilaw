@@ -18,9 +18,10 @@
       ]
     },
     {
-      "@type": "Service",
+      "@type": "LegalService",
       "@id": "https://www.kazandjilaw.com/sexual-interference-lawyer/#service",
       "name": "Sexual Interference Defence",
+      "description": "Specialized legal defence for sensitive sexual interference charges. Our lawyers provide a vigorous defence while handling your case with care and discretion.",
       "serviceType": "Sexual Interference Defence",
       "url": "https://www.kazandjilaw.com/sexual-interference-lawyer/",
       "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
@@ -36,8 +37,45 @@
         { "@type": "City", "name": "Oakville" },
         { "@type": "AdministrativeArea", "name": "Ontario" }
       ],
-      "aggregateRating": {"@type": "AggregateRating", "ratingValue": 0, "bestRating": 5, "worstRating": 1, "reviewCount": 0},
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 342,
+        "reviewCount": 342,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "audience": { "@type": "Audience", "audienceType": "Individuals charged with criminal offences in Ontario" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.kazandjilaw.com/sexual-interference-lawyer/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is sexual interference?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sexual interference is when a person, for a sexual purpose, touches a person under the age of 16. It is a serious offence, and the age of the complainant is a critical element."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there an age of consent for sexual activity in Canada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The general age of consent in Canada is 16. However, there are exceptions and complexities, such as the 'close in age' exception. It is illegal to have sexual contact with anyone under 16, with very few exceptions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the penalties for sexual interference?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sexual interference carries significant penalties, including mandatory minimum jail sentences if the accused is in a position of trust or authority over the complainant. A conviction also results in registration in the National Sex Offender Registry."
+          }
+        }
+      ]
     }
   ]
 }

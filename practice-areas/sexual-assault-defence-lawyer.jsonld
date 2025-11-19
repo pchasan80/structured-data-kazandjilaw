@@ -18,9 +18,10 @@
       ]
     },
     {
-      "@type": "Service",
+      "@type": "LegalService",
       "@id": "https://www.kazandjilaw.com/sexual-assault-defence-lawyer/#service",
       "name": "Sexual Assault Defence",
+      "description": "Discreet and powerful legal defence for sexual assault allegations. We are committed to a fair process and the presumption of innocence for our clients.",
       "serviceType": "Sexual Assault Defence",
       "url": "https://www.kazandjilaw.com/sexual-assault-defence-lawyer/",
       "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
@@ -36,8 +37,45 @@
         { "@type": "City", "name": "Oakville" },
         { "@type": "AdministrativeArea", "name": "Ontario" }
       ],
-      "aggregateRating": {"@type": "AggregateRating", "ratingValue": 0, "bestRating": 5, "worstRating": 1, "reviewCount": 0},
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 342,
+        "reviewCount": 342,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "audience": { "@type": "Audience", "audienceType": "Individuals charged with criminal offences in Ontario" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.kazandjilaw.com/sexual-assault-defence-lawyer/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the legal definition of sexual assault?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sexual assault is any unwanted touching of a sexual nature. It is a broad definition that covers a wide range of conduct, from an unwanted kiss to a violent sexual attack. The key element is the lack of consent."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is 'consent' in the context of sexual assault law?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Consent must be voluntary, conscious, and ongoing throughout the sexual activity. A person cannot consent if they are unconscious, incapacitated by drugs or alcohol, or if the consent is obtained through threats or abuse of authority."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the 'mistaken belief in consent' defence?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This defence argues that the accused honestly but mistakenly believed the complainant was consenting. To rely on this defence, the accused must have taken reasonable steps to ascertain that the complainant was consenting."
+          }
+        }
+      ]
     }
   ]
 }

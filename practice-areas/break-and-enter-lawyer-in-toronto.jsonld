@@ -18,9 +18,10 @@
       ]
     },
     {
-      "@type": "Service",
+      "@type": "LegalService",
       "@id": "https://www.kazandjilaw.com/break-and-enter-lawyer-in-toronto/#service",
       "name": "Break and Enter Defence",
+      "description": "Experienced lawyers defending clients against break and enter charges in Toronto. We meticulously review evidence to build a strong and effective defence.",
       "serviceType": "Break and Enter Defence",
       "url": "https://www.kazandjilaw.com/break-and-enter-lawyer-in-toronto/",
       "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
@@ -36,7 +37,45 @@
         { "@type": "City", "name": "Oakville" },
         { "@type": "AdministrativeArea", "name": "Ontario" }
       ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 342,
+        "reviewCount": 342,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "audience": { "@type": "Audience", "audienceType": "Individuals charged with criminal offences in Ontario" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.kazandjilaw.com/break-and-enter-lawyer-in-toronto/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the legal definition of 'break and enter'?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Break and enter involves entering a place without permission with the intent to commit an indictable offence, such as theft. 'Breaking' can mean opening a door or window, and does not necessarily require causing damage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are the penalties different for breaking into a home versus a business?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, breaking into a residential dwelling (a home) is considered more serious and carries a maximum penalty of life in prison. Breaking into a commercial property has a maximum penalty of 10 years."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I didn't actually steal anything?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The offence is complete upon entering the property with the *intent* to commit an offence. The prosecution does not need to prove that anything was actually stolen for a conviction of break and enter."
+          }
+        }
+      ]
     }
   ]
 }

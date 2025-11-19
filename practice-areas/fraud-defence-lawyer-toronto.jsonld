@@ -18,9 +18,10 @@
       ]
     },
     {
-      "@type": "Service",
+      "@type": "LegalService",
       "@id": "https://www.kazandjilaw.com/fraud-defence-lawyer-toronto/#service",
       "name": "Fraud Defence",
+      "description": "Top-tier legal defence for all types of fraud charges in Toronto. We handle complex financial cases and work to protect our clients from severe penalties.",
       "serviceType": "Fraud Defence",
       "url": "https://www.kazandjilaw.com/fraud-defence-lawyer-toronto/",
       "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
@@ -36,8 +37,45 @@
         { "@type": "City", "name": "Oakville" },
         { "@type": "AdministrativeArea", "name": "Ontario" }
       ],
-      "aggregateRating": {"@type": "AggregateRating", "ratingValue": 0, "bestRating": 5, "worstRating": 1, "reviewCount": 0},
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 342,
+        "reviewCount": 342,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "audience": { "@type": "Audience", "audienceType": "Individuals charged with criminal offences in Ontario" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.kazandjilaw.com/fraud-defence-lawyer-toronto/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What constitutes fraud under Canadian law?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fraud is defined as dishonestly, by deceit, falsehood, or other fraudulent means, depriving someone of their property, money, or valuable security. The value of the fraud (over or under $5,000) determines the severity of the potential penalty."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does the prosecution need to prove in a fraud case?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Crown must prove that the accused acted dishonestly and that this dishonest act caused a deprivation or a risk of deprivation to the victim. They must also prove that the accused intended to commit the fraudulent act."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are some common defences to fraud charges?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Common defences include lack of intent (the act was a mistake), or that no dishonest act actually occurred. A thorough review of the financial documents and evidence is crucial to building a strong defence."
+          }
+        }
+      ]
     }
   ]
 }

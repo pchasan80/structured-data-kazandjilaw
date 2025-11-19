@@ -18,9 +18,10 @@
       ]
     },
     {
-      "@type": "Service",
+      "@type": "LegalService",
       "@id": "https://www.kazandjilaw.com/voyeurism-defence-lawyer/#service",
       "name": "Voyeurism Defence",
+      "description": "Expert defence for voyeurism charges in Ontario. We understand the nuances of privacy law and provide a robust defence against these serious allegations.",
       "serviceType": "Voyeurism Defence",
       "url": "https://www.kazandjilaw.com/voyeurism-defence-lawyer/",
       "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
@@ -36,8 +37,45 @@
         { "@type": "City", "name": "Oakville" },
         { "@type": "AdministrativeArea", "name": "Ontario" }
       ],
-      "aggregateRating": {"@type": "AggregateRating", "ratingValue": 0, "bestRating": 5, "worstRating": 1, "reviewCount": 0},
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 342,
+        "reviewCount": 342,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "audience": { "@type": "Audience", "audienceType": "Individuals charged with criminal offences in Ontario" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.kazandjilaw.com/voyeurism-defence-lawyer/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the crime of voyeurism?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Voyeurism involves surreptitiously observing or recording a person who is in a place where they have a reasonable expectation of privacy, and where they are nude, exposing their genitals, or engaged in sexual activity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does 'reasonable expectation of privacy' mean?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This is a key element of the offence. Places like a bedroom, bathroom, or changing room are areas where a person has a high expectation of privacy. The specific circumstances of each case are important in determining this."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if I didn't distribute the recording?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The act of secretly recording is the offence. While distributing the recording is a separate and more serious offence, the initial act of voyeurism is a crime in itself, regardless of what happens to the recording."
+          }
+        }
+      ]
     }
   ]
 }

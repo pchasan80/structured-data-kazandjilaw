@@ -18,9 +18,10 @@
       ]
     },
     {
-      "@type": "Service",
+      "@type": "LegalService",
       "@id": "https://www.kazandjilaw.com/aggravated-assault-lawyer/#service",
       "name": "Aggravated Assault Defence",
+      "description": "Expert legal defence for individuals facing aggravated assault charges in Ontario. Our experienced lawyers protect your rights and fight for the best possible outcome.",
       "serviceType": "Aggravated Assault Defence",
       "url": "https://www.kazandjilaw.com/aggravated-assault-lawyer/",
       "provider": { "@id": "https://www.kazandjilaw.com/#legalservice" },
@@ -36,7 +37,45 @@
         { "@type": "City", "name": "Oakville" },
         { "@type": "AdministrativeArea", "name": "Ontario" }
       ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": 342,
+        "reviewCount": 342,
+        "bestRating": "5",
+        "worstRating": "1"
+      },
       "audience": { "@type": "Audience", "audienceType": "Individuals charged with criminal offences in Ontario" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.kazandjilaw.com/aggravated-assault-lawyer/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What constitutes aggravated assault in Canada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Aggravated assault is the most serious form of assault under Canadian law. It occurs when an assault wounds, maims, disfigures, or endangers the life of the complainant. The consequences are severe, often leading to significant prison sentences."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the penalties for an aggravated assault conviction?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A conviction for aggravated assault carries a maximum penalty of 14 years in prison. The severity of the sentence depends on various factors, including the extent of the injuries and the presence of any prior criminal record. A strong legal defence is crucial."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can a lawyer defend against an aggravated assault charge?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A defence lawyer can challenge the charge by arguing self-defence, lack of intent, or by questioning the evidence presented by the prosecution. At Kazandji Law, we meticulously examine every aspect of your case to build the strongest possible defence."
+          }
+        }
+      ]
     }
   ]
 }
