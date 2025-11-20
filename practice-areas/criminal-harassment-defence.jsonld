@@ -53,6 +53,7 @@
         "bestRating": "5",
         "worstRating": "1"
       },
+      "priceRange": "$",
       "audience": { "@type": "Audience", "audienceType": "Individuals charged with criminal offences in Ontario" }
     },
     {

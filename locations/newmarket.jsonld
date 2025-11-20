@@ -30,6 +30,7 @@
         "Trial Defence",
         "Appeals"
       ],
+      "priceRange": "$",
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
         "name": "Criminal Defence Services",
