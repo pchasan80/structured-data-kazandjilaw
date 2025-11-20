@@ -16,7 +16,10 @@
       },
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "7191 Yonge St Suite 310",
+        "addressLocality": "Thornhill",
         "addressRegion": "ON",
+        "postalCode": "L4J 0C9",
         "addressCountry": "CA"
       },
       "audience": {

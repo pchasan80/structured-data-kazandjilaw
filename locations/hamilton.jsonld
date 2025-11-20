@@ -16,7 +16,10 @@
       },
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "180 John St Unit 320",
+        "addressLocality": "Toronto",
         "addressRegion": "ON",
+        "postalCode": "M5T 1X5",
         "addressCountry": "CA"
       },
       "audience": {
